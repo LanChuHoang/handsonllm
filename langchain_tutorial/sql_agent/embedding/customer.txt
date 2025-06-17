@@ -1,0 +1,23 @@
+Table: customers
+Description:
+
+Holds customer data: names, contact details, billing.
+
+Core for managing orders, customer segmentation, support.
+
+Columns:
+
+Column	Type	Description
+CustomerId	int	Primary key.
+FirstName, LastName	nvarchar(40)	Customer name.
+Company	nvarchar(80)	Optional company name.
+Address, City, State, Country, PostalCode	nvarchar	Address details.
+Phone, Fax, Email	nvarchar	Contact info.
+SupportRepId	int (nullable)	Links to Employee who supports this customer.
+
+Relationship:
+
+Many-to-one from Customer.SupportRepId → Employee.EmployeeId.
+
+Used by Invoice table via Invoice.CustomerId.
+

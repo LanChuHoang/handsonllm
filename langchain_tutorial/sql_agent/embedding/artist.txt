@@ -1,0 +1,17 @@
+Table: artists
+Description:
+
+Stores artist names.
+
+For grouping albums and tracks.
+
+Columns:
+
+ArtistId (int): PK.
+
+Name (nvarchar(120)): Artist name.
+
+Relationship:
+
+One-to-many with Album via Album.ArtistId.
+

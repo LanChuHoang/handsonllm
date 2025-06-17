@@ -1,0 +1,24 @@
+Table: invoices
+Description:
+
+Invoice headers for transactions made by customers.
+
+Key for sales reporting, billing analysis.
+
+Columns:
+
+InvoiceId (int): PK.
+
+CustomerId (int): FK → Customer.
+
+InvoiceDate (datetime): Invoice date/time.
+
+BillingAddress, City, State, Country, PostalCode (nvarchar): Billing details.
+
+Total (numeric(10,2)): Invoice total amount.
+
+Relationship:
+
+One-to-many: InvoiceLine references Invoice.InvoiceId.
+
+Many-to-one to Customer.

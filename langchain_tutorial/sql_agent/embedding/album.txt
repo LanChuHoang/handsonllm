@@ -1,0 +1,20 @@
+Table: albums
+Description:
+
+Albums grouped by artist.
+
+Useful for browsing catalog by album.
+
+Columns:
+
+AlbumId (int): PK.
+
+Title (nvarchar(160)): Album title.
+
+ArtistId (int): FK → Artist.ArtistId.
+
+Relationship:
+
+Many-to-one to artists.
+
+One-to-many with Track.

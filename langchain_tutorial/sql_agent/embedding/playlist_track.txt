@@ -1,0 +1,19 @@
+Table: playlist_track
+Description:
+
+Junction table linking playlists and tracks.
+
+For tracking which tracks belong to which playlist.
+
+Columns:
+
+PlaylistId (int): FK → Playlists.
+
+TrackId (int): FK → Track.
+
+Relationship:
+
+Composite PK of (PlaylistId, TrackId).
+
+Many-to-one to both Playlist and Track.
+

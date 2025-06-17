@@ -1,0 +1,24 @@
+Table: InvoiceLine
+Description:
+
+Line items per invoice (tracks sold).
+
+Critical for order detail, product-level revenue.
+
+Columns:
+
+InvoiceLineId (int): PK.
+
+InvoiceId (int): FK → Invoice.
+
+TrackId (int): FK → Track.
+
+UnitPrice (numeric(10,2)): Price per unit.
+
+Quantity (int): Quantity sold.
+
+Relationship:
+
+Many-to-one: InvoiceLine → Invoice.
+
+Many-to-one: InvoiceLine → Track.

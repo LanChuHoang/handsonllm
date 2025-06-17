@@ -1,0 +1,42 @@
+Table: tracks
+Description:
+
+Detailed info on each song: name, composer, length, price.
+
+Central to browsing, playing, inventory.
+
+Columns:
+
+Column	Type	Description
+TrackId	int	PK.
+Name	nvarchar(400)	Song title.
+AlbumId	int (nullable)	FK → Album.AlbumId.
+MediaTypeId	int	FK → MediaType.MediaTypeId.
+GenreId	int (nullable)	FK → Genre.GenreId.
+Composer	nvarchar(440)	Composer(s).
+Milliseconds	int	Track length.
+Bytes	int (nullable)	File size.
+UnitPrice	numeric(12,2)	Retail price.
+
+Relationship:
+
+Many-to-one: Track → Album, MediaType, Genre.
+
+Referenced by InvoiceLine and PlaylistTrack.
+
+Table: playlists
+Description:
+
+Playlist name and ID.
+
+Used to organize collections of tracks.
+
+Columns:
+
+PlaylistId (int): PK.
+
+Name (nvarchar(120), nullable): Playlist title.
+
+Relationship:
+
+Many-to-many with tracks through PlaylistTrack.

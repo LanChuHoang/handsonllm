@@ -1,0 +1,15 @@
+Overview:
+Chinook is a fictional digital media store database designed for learning and demos. It models real-world entities—artists, albums, tracks, customers, invoices, employees, playlists, and more—using data inspired by an iTunes library and synthetic sales information. The schema includes 11 relational tables with realistic constraints, indexes, and over 15,000 rows of data.
+
+Tables & Descriptions:
+employees: Information on store staff, including personal details and reporting hierarchy; used for assigning customer support roles and analyzing performance.
+customers: Stores customer profiles and contacts, linking them to their support representatives; essential for order history and marketing.
+invoices: Invoice headers containing transaction metadata like date, billing address, and total; core for revenue tracking and financial analysis.
+invoice_items (aka invoice_line): Line-item details for each invoice (track sold with price and qty); crucial for item-level sales reporting.
+artists: Catalog of music artists; foundational for grouping albums and tracks.
+albums: Albums tied to artists; used for browsing catalog by album and aggregated media views.
+media_types: Defines format types (e.g., MP3, AAC); supports format-based filtering or reporting.
+genres: Standard music genres (Rock, Jazz, etc.); enables genre-based analytics and recommendations.
+tracks: Core catalog of songs with metadata (title, composer, length, price); central to browsing and sales.
+playlists: Named user or system playlists; used for organizing and retrieving track collections.
+playlist_track: Many-to-many join between playlists and tracks; supports playlist management and content queries.

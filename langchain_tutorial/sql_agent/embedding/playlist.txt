@@ -1,0 +1,16 @@
+Table: playlists
+Description:
+
+Playlist name and ID.
+
+Used to organize collections of tracks.
+
+Columns:
+
+PlaylistId (int): PK.
+
+Name (nvarchar(120), nullable): Playlist title.
+
+Relationship:
+
+Many-to-many with tracks through PlaylistTrack.

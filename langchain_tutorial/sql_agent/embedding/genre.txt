@@ -1,0 +1,17 @@
+Table: genres
+Description:
+
+Music genre taxonomy (Rock, Jazz, etc.).
+
+Used for genre-based queries or filtering.
+
+Columns:
+
+GenreId (int): PK.
+
+Name (nvarchar(120)): Genre name.
+
+Relationship:
+
+Referenced by Track.GenreId.
+

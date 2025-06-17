@@ -1,0 +1,25 @@
+Table: employees
+Description:
+
+Stores staff member info (names, title, hire dates, etc.).
+
+Common use: support ticket assignments, sales reporting, organizational hierarchy.
+
+Columns:
+
+Column	Type	Description
+EmployeeId	int	Primary key identifying the employee.
+LastName	nvarchar(40)	Employee’s last name.
+FirstName	nvarchar(40)	Employee’s first name.
+Title	nvarchar(60)	Job title (e.g., Sales Support Agent).
+ReportsTo	int (nullable)	Manager’s EmployeeId (self-referential).
+BirthDate	datetime	Date of birth.
+HireDate	datetime	When employee was hired.
+Address, City, State, Country, PostalCode	nvarchar	Contact address components.
+Phone, Fax, Email	nvarchar	Contact info.
+
+Relationship with other tables:
+
+ReportsTo references Employee.EmployeeId (manager relationship).
+
+Customer.SupportRepId links to Employee.EmployeeId.

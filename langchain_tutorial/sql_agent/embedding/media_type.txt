@@ -1,0 +1,17 @@
+Table: media_types
+Description:
+
+Media formats (MP3, AAC, etc.).
+
+Useful for filtering tracks by format.
+
+Columns:
+
+MediaTypeId (int): PK.
+
+Name (nvarchar(120)): Format name.
+
+Relationship:
+
+Referenced by Track.MediatypeId.
+
