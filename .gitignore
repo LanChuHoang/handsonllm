@@ -1,3 +1,6 @@
 .env
 models
 a.py
+spider_data/
+spider/
+**/.DS_Store
