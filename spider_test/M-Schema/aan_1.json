@@ -1,0 +1,290 @@
+{
+  "db_id": "aan_1",
+  "schema": null,
+  "tables": {
+    "main.Affiliation": {
+      "fields": {
+        "affiliation_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "name": {
+          "type": "VARCHAR(255)",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "20/20 Speech Ltd.",
+            "3SOFT GmbH",
+            "A-Life Medical, Inc.",
+            "A.I. DuPont Hospital for Children",
+            "ABP Pvt. Ltd."
+          ]
+        },
+        "address": {
+          "type": "VARCHAR(255)",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "Malvern UK",
+            "Erlangen Germany",
+            "San Diego CA",
+            "Wilmington DE",
+            "Calcutta India"
+          ]
+        }
+      },
+      "examples": [],
+      "comment": ""
+    },
+    "main.Author": {
+      "fields": {
+        "author_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "name": {
+          "type": "VARCHAR(255)",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "&#269",
+            "&#353",
+            "&#x106",
+            "&#x107"
+          ]
+        },
+        "email": {
+          "type": "VARCHAR(255)",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": []
+        }
+      },
+      "examples": [],
+      "comment": ""
+    },
+    "main.Author_list": {
+      "fields": {
+        "paper_id": {
+          "type": "VARCHAR(25)",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "A00-1001",
+            "A00-1002",
+            "A00-1003",
+            "A00-1004",
+            "A00-1005"
+          ]
+        },
+        "author_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "0",
+            "50",
+            "63",
+            "65",
+            "81"
+          ]
+        },
+        "affiliation_id": {
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      },
+      "examples": [],
+      "comment": ""
+    },
+    "main.Citation": {
+      "fields": {
+        "paper_id": {
+          "type": "VARCHAR(25)",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "A00-1001",
+            "A00-1002",
+            "A00-1003",
+            "A00-1004",
+            "A00-1005"
+          ]
+        },
+        "cited_paper_id": {
+          "type": "VARCHAR(25)",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "A00-1002",
+            "A00-1004",
+            "A00-1005",
+            "A00-1006",
+            "A00-1007"
+          ]
+        }
+      },
+      "examples": [],
+      "comment": ""
+    },
+    "main.Paper": {
+      "fields": {
+        "paper_id": {
+          "type": "VARCHAR(25)",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "A00-1001",
+            "A00-1002",
+            "A00-1003",
+            "A00-1004",
+            "A00-1005"
+          ]
+        },
+        "title": {
+          "type": "VARCHAR(255)",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "BusTUC - A Natural Language Bus Route Oracle",
+            "Machine Translation Of Very Close Languages",
+            "Cross-Language Multimedia Information Retrieval",
+            "Automatic Construction Of Parallel English-Chinese Corpus For Cross-Language Information Retrieval",
+            "PartsID: A Dialogue-Based System For Identifying Parts For Medical Systems"
+          ]
+        },
+        "venue": {
+          "type": "VARCHAR(255)",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "NAACL",
+            "ANLP",
+            "COLING",
+            "EMNLP",
+            "EACL"
+          ]
+        },
+        "year": {
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true,
+          "default": "NULL",
+          "autoincrement": false,
+          "comment": "",
+          "examples": [
+            "2000",
+            "1983",
+            "1988",
+            "1992",
+            "1994"
+          ]
+        }
+      },
+      "examples": [],
+      "comment": ""
+    }
+  },
+  "foreign_keys": [
+    [
+      "main.Author_list",
+      "affiliation_id",
+      "main",
+      "Affiliation",
+      "affiliation_id"
+    ],
+    [
+      "main.Author_list",
+      "author_id",
+      "main",
+      "Author",
+      "author_id"
+    ],
+    [
+      "main.Author_list",
+      "paper_id",
+      "main",
+      "Paper",
+      "paper_id"
+    ],
+    [
+      "main.Citation",
+      "cited_paper_id",
+      "main",
+      "Paper",
+      "paper_id"
+    ],
+    [
+      "main.Citation",
+      "paper_id",
+      "main",
+      "Paper",
+      "paper_id"
+    ]
+  ]
+}
