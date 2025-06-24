@@ -4,3 +4,4 @@ a.py
 spider_data/
 spider/
 **/.DS_Store
+**/__pycache__
