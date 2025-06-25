@@ -59,6 +59,28 @@ def _fetch_results(db_path: str, query: str) -> List[Tuple]:
     return sorted(normalized)
 
 
+def _normalize_rows(rows: List[Tuple]) -> List[Tuple[str, ...]]:
+    normalized: List[Tuple[str, ...]] = []
+    for row in rows:
+        new_row = []
+        for v in row:
+            if v is None or v == "":
+                new_row.append("")
+            else:
+                new_row.append(str(v))
+        normalized.append(tuple(new_row))
+
+    return sorted(normalized)
+
+
+def _is_match(sol_rows: List[Tuple], ans_rows: List[Tuple]) -> bool:
+    if len(sol_rows) != len(ans_rows):
+        return False
+    norm_sol_rows = _normalize_rows(sol_rows)
+    norm_ans_rows = _normalize_rows(ans_rows)
+    return norm_sol_rows == norm_ans_rows
+
+
 def evaluate_sql(
     solution_file: str, answer_file: str, db_root: str
 ) -> EvaluationResult:
@@ -110,15 +132,8 @@ def evaluate_sql(
             error = repr(e)
             is_match = False
         else:
-            error = None
-            try:
-                assert sol_rows == ans_rows
-            except Exception:
-                error = f"Not match: {sol_rows} != {ans_rows}"
-                is_match = False
-            else:
-                error = None
-                is_match = True
+            is_match = _is_match(sol_rows, ans_rows)
+            error = f"Not match: {sol_rows} != {ans_rows}" if not is_match else None
 
         result.append(
             {
