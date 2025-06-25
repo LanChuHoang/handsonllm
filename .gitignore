@@ -6,3 +6,4 @@ spider/
 **/.DS_Store
 **/__pycache__
 MAC-SQL/
+**/data.zip
