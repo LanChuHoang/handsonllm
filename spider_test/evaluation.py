@@ -16,12 +16,35 @@ class EvaluationResult:
         self.summary_data = self.to_summary_data()
 
     def to_summary_data(self) -> Dict[str, Any]:
+        easy_count = len(self.details_df.query("hardness == 'easy'"))
+        medium_count = len(self.details_df.query("hardness == 'medium'"))
+        hard_count = len(self.details_df.query("hardness == 'hard'"))
+        extra_count = len(self.details_df.query("hardness == 'extra'"))
+        total = len(self.details)
+        assert easy_count + medium_count + hard_count + extra_count == total
+
+        easy_correct = len(self.details_df.query("hardness == 'easy' & is_match"))
+        medium_correct = len(self.details_df.query("hardness == 'medium' & is_match"))
+        hard_correct = len(self.details_df.query("hardness == 'hard' & is_match"))
+        extra_correct = len(self.details_df.query("hardness == 'extra' & is_match"))
+        total_correct = len(self.details_df.query("is_match"))
+        assert (
+            total_correct
+            == easy_correct + medium_correct + hard_correct + extra_correct
+        )
+
+        easy_execution_accuracy = round((easy_correct / easy_count) * 100, 2)
+        medium_execution_accuracy = round((medium_correct / medium_count) * 100, 2)
+        hard_execution_accuracy = round((hard_correct / hard_count) * 100, 2)
+        extra_execution_accuracy = round((extra_correct / extra_count) * 100, 2)
+        total_execution_accuracy = round((total_correct / total) * 100, 2)
+
         summary_data = {
-            "total": len(self.details),
-            "correct": self.details_df["is_match"].sum(),
-            "execution_accuracy": round(
-                (self.details_df["is_match"].sum() / len(self.details)) * 100, 2
-            ),
+            "easy": f"{easy_correct}/{easy_count} ({easy_execution_accuracy}%)",
+            "medium": f"{medium_correct}/{medium_count} ({medium_execution_accuracy}%)",
+            "hard": f"{hard_correct}/{hard_count} ({hard_execution_accuracy}%)",
+            "extra": f"{extra_correct}/{extra_count} ({extra_execution_accuracy}%)",
+            "total": f"{total_correct}/{total} ({total_execution_accuracy}%)",
         }
         return summary_data
 
@@ -82,7 +105,7 @@ def _is_match(sol_rows: List[Tuple], ans_rows: List[Tuple]) -> bool:
 
 
 def evaluate_sql(
-    solution_file: str, answer_file: str, db_root: str
+    input_file: str, solution_file: str, answer_file: str, db_root: str
 ) -> EvaluationResult:
     """
     Compare the "correct" SQLs in solution_file against the user-provided
@@ -103,6 +126,7 @@ def evaluate_sql(
         An object containing total count, correct count, per-db match flags,
         and an overall accuracy percentage.
     """
+    inputs = pd.read_csv(input_file).to_dict(orient="records")
     sols = _load_lines(solution_file)
     ans = _load_lines(answer_file)
 
@@ -113,7 +137,9 @@ def evaluate_sql(
 
     result = []
 
-    for sol_line, ans_sql in zip(sols, ans):
+    for question_number, (sol_line, ans_sql, input_data) in enumerate(
+        zip(sols, ans, inputs)
+    ):
         try:
             sql, db_id = sol_line.split("\t")
         except Exception as e:
@@ -137,6 +163,9 @@ def evaluate_sql(
 
         result.append(
             {
+                "question_number": question_number,
+                "question": input_data["question"],
+                "hardness": input_data["hardness"],
                 "db_path": db_path,
                 "solution": sql,
                 "answer": ans_sql,

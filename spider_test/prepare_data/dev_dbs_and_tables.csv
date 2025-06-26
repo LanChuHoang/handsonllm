@@ -1,0 +1,877 @@
+db_id,table
+perpetrator,perpetrator
+perpetrator,people
+college_2,classroom
+college_2,department
+college_2,course
+college_2,instructor
+college_2,section
+college_2,teaches
+college_2,student
+college_2,takes classes
+college_2,advisor
+college_2,time slot
+college_2,prerequisite
+flight_company,airport
+flight_company,operate company
+flight_company,flight
+icfp_1,institution
+icfp_1,authors
+icfp_1,papers
+icfp_1,authorship count
+body_builder,body builder
+body_builder,people
+storm_record,storm
+storm_record,region
+storm_record,affected region
+pilot_record,aircraft
+pilot_record,pilot
+pilot_record,pilot record
+race_track,race
+race_track,track
+academic,author
+academic,conference
+academic,domain
+academic,domain author
+academic,domain conference
+academic,journal
+academic,domain journal
+academic,keyword
+academic,domain keyword
+academic,publication
+academic,domain publication
+academic,organization
+academic,publication keyword
+academic,writes
+academic,cite
+department_store,addresses
+department_store,staff
+department_store,suppliers
+department_store,department store chain
+department_store,customers
+department_store,products
+department_store,supplier addresses
+department_store,customer addresses
+department_store,customer orders
+department_store,department stores
+department_store,departments
+department_store,order items
+department_store,product suppliers
+department_store,staff department assignments
+music_4,artist
+music_4,volume
+music_4,music festival
+insurance_fnol,customers
+insurance_fnol,services
+insurance_fnol,available policies
+insurance_fnol,customers policies
+insurance_fnol,first notification of loss
+insurance_fnol,claims
+insurance_fnol,settlements
+cinema,film
+cinema,cinema
+cinema,schedule
+decoration_competition,college
+decoration_competition,member
+decoration_competition,round
+phone_market,phone
+phone_market,market
+phone_market,phone market
+store_product,product
+store_product,store
+store_product,district
+store_product,store product
+store_product,store district
+assets_maintenance,third party companies
+assets_maintenance,maintenance contracts
+assets_maintenance,parts
+assets_maintenance,skills
+assets_maintenance,staff
+assets_maintenance,assets
+assets_maintenance,asset parts
+assets_maintenance,maintenance engineers
+assets_maintenance,engineer skills
+assets_maintenance,fault log
+assets_maintenance,engineer visits
+assets_maintenance,part faults
+assets_maintenance,fault log parts
+assets_maintenance,skills required to fix
+student_assessment,addresses
+student_assessment,people
+student_assessment,students
+student_assessment,courses
+student_assessment,people addresses
+student_assessment,student course registrations
+student_assessment,student course attendance
+student_assessment,candidates
+student_assessment,candidate assessments
+dog_kennels,breeds
+dog_kennels,charges
+dog_kennels,sizes
+dog_kennels,treatment types
+dog_kennels,owners
+dog_kennels,dogs
+dog_kennels,professionals
+dog_kennels,treatments
+music_1,genre
+music_1,artist
+music_1,files
+music_1,song
+company_employee,people
+company_employee,company
+company_employee,employment
+farm,city
+farm,farm
+farm,farm competition
+farm,competition record
+solvency_ii,addresses
+solvency_ii,locations
+solvency_ii,products
+solvency_ii,parties
+solvency_ii,assets
+solvency_ii,channels
+solvency_ii,finances
+solvency_ii,events
+solvency_ii,products in events
+solvency_ii,parties in events
+solvency_ii,agreements
+solvency_ii,assets in events
+city_record,city
+city_record,match
+city_record,temperature
+city_record,hosting city
+swimming,swimmer
+swimming,stadium
+swimming,event
+swimming,record
+flight_2,airlines
+flight_2,airports
+flight_2,flights
+election,county
+election,party
+election,election
+manufactory_1,manufacturers
+manufactory_1,products
+debate,people
+debate,debate
+debate,debate people
+network_2,person
+network_2,person friend
+local_govt_in_alabama,services
+local_govt_in_alabama,participants
+local_govt_in_alabama,events
+local_govt_in_alabama,participants in events
+climbing,mountain
+climbing,climber
+e_learning,course authors and tutors
+e_learning,students
+e_learning,subjects
+e_learning,courses
+e_learning,student course enrolment
+e_learning,student tests taken
+scientist_1,scientists
+scientist_1,projects
+scientist_1,assigned to
+ship_1,captain
+ship_1,ship
+entertainment_awards,festival detail
+entertainment_awards,artwork
+entertainment_awards,nomination
+allergy_1,allergy type
+allergy_1,has allergy
+allergy_1,student
+imdb,actor
+imdb,copyright
+imdb,cast
+imdb,genre
+imdb,classification
+imdb,company
+imdb,director
+imdb,producer
+imdb,directed by
+imdb,keyword
+imdb,made by
+imdb,movie
+imdb,tags
+imdb,tv series
+imdb,writer
+imdb,written by
+products_for_hire,discount coupons
+products_for_hire,customers
+products_for_hire,bookings
+products_for_hire,products for hire
+products_for_hire,payments
+products_for_hire,products booked
+products_for_hire,view product availability
+candidate_poll,candidate
+candidate_poll,people
+chinook_1,album
+chinook_1,artist
+chinook_1,customer
+chinook_1,employee
+chinook_1,genre
+chinook_1,invoice
+chinook_1,invoice line
+chinook_1,media type
+chinook_1,playlist
+chinook_1,playlist track
+chinook_1,track
+flight_4,routes
+flight_4,airports
+flight_4,airlines
+pets_1,student
+pets_1,has pet
+pets_1,pets
+dorm_1,student
+dorm_1,dorm
+dorm_1,dorm amenity
+dorm_1,has amenity
+dorm_1,lives in
+journal_committee,journal
+journal_committee,editor
+journal_committee,journal committee
+flight_1,flight
+flight_1,aircraft
+flight_1,employee
+flight_1,certificate
+medicine_enzyme_interaction,medicine
+medicine_enzyme_interaction,enzyme
+medicine_enzyme_interaction,medicine enzyme interaction
+local_govt_and_lot,customers
+local_govt_and_lot,properties
+local_govt_and_lot,residents
+local_govt_and_lot,organizations
+local_govt_and_lot,services
+local_govt_and_lot,residents services
+local_govt_and_lot,things
+local_govt_and_lot,customer events
+local_govt_and_lot,customer event notes
+local_govt_and_lot,timed status of things
+local_govt_and_lot,timed locations of things
+station_weather,train
+station_weather,station
+station_weather,route
+station_weather,weekly weather
+shop_membership,member
+shop_membership,branch
+shop_membership,membership register branch
+shop_membership,purchase
+driving_school,addresses
+driving_school,staff
+driving_school,vehicles
+driving_school,customers
+driving_school,customer payments
+driving_school,lessons
+concert_singer,stadium
+concert_singer,singer
+concert_singer,concert
+concert_singer,singer in concert
+music_2,songs
+music_2,albums
+music_2,band
+music_2,instruments
+music_2,performance
+music_2,track lists
+music_2,vocals
+sports_competition,club
+sports_competition,club rank
+sports_competition,player
+sports_competition,competition
+sports_competition,competition result
+railway,railway
+railway,train
+railway,manager
+railway,railway manage
+inn_1,rooms
+inn_1,reservations
+museum_visit,museum
+museum_visit,customer
+museum_visit,visit
+browser_web,web client accelerator
+browser_web,browser
+browser_web,accelerator compatible browser
+baseball_1,all star
+baseball_1,appearances
+baseball_1,manager award
+baseball_1,player award
+baseball_1,manager award vote
+baseball_1,player award vote
+baseball_1,batting
+baseball_1,batting postseason
+baseball_1,player college
+baseball_1,fielding
+baseball_1,fielding outfield
+baseball_1,fielding postseason
+baseball_1,hall of fame
+baseball_1,home game
+baseball_1,manager
+baseball_1,manager half
+baseball_1,player
+baseball_1,park
+baseball_1,pitching
+baseball_1,pitching postseason
+baseball_1,salary
+baseball_1,college
+baseball_1,postseason
+baseball_1,team
+baseball_1,team franchise
+baseball_1,team half
+architecture,architect
+architecture,bridge
+architecture,mill
+csu_1,campuses
+csu_1,csu fees
+csu_1,degrees
+csu_1,discipline enrollments
+csu_1,enrollments
+csu_1,faculty
+tracking_orders,customers
+tracking_orders,invoices
+tracking_orders,orders
+tracking_orders,products
+tracking_orders,order items
+tracking_orders,shipments
+tracking_orders,shipment items
+insurance_policies,customers
+insurance_policies,customer policies
+insurance_policies,claims
+insurance_policies,settlements
+insurance_policies,payments
+gas_company,company
+gas_company,gas station
+gas_company,station company
+e_government,addresses
+e_government,services
+e_government,forms
+e_government,individuals
+e_government,organizations
+e_government,parties
+e_government,organization contact individuals
+e_government,party addresses
+e_government,party forms
+e_government,party services
+school_bus,driver
+school_bus,school
+school_bus,school bus
+machine_repair,repair
+machine_repair,machine
+machine_repair,technician
+machine_repair,repair assignment
+theme_gallery,artist
+theme_gallery,exhibition
+theme_gallery,exhibition record
+film_rank,film
+film_rank,market
+film_rank,film market estimation
+party_people,region
+party_people,party
+party_people,member
+party_people,party events
+hospital_1,physician
+hospital_1,department
+hospital_1,affiliated with
+hospital_1,procedures
+hospital_1,trained in
+hospital_1,patient
+hospital_1,nurse
+hospital_1,appointment
+hospital_1,medication
+hospital_1,prescribes
+hospital_1,block
+hospital_1,room
+hospital_1,on call
+hospital_1,stay
+hospital_1,undergoes
+customers_campaigns_ecommerce,premises
+customers_campaigns_ecommerce,products
+customers_campaigns_ecommerce,customers
+customers_campaigns_ecommerce,mailshot campaigns
+customers_campaigns_ecommerce,customer addresses
+customers_campaigns_ecommerce,customer orders
+customers_campaigns_ecommerce,mailshot customers
+customers_campaigns_ecommerce,order items
+gymnast,gymnast
+gymnast,people
+restaurants,geographic
+restaurants,restaurant
+restaurants,location
+mountain_photos,mountain
+mountain_photos,camera lens
+mountain_photos,photos
+battle_death,battle
+battle_death,ship
+battle_death,death
+cre_Doc_Control_Systems,reference document types
+cre_Doc_Control_Systems,roles
+cre_Doc_Control_Systems,addresses
+cre_Doc_Control_Systems,reference document status
+cre_Doc_Control_Systems,reference shipping agents
+cre_Doc_Control_Systems,documents
+cre_Doc_Control_Systems,employees
+cre_Doc_Control_Systems,document drafts
+cre_Doc_Control_Systems,draft copies
+cre_Doc_Control_Systems,circulation history
+cre_Doc_Control_Systems,documents mailed
+tracking_share_transactions,investors
+tracking_share_transactions,lots
+tracking_share_transactions,reference transaction types
+tracking_share_transactions,transactions
+tracking_share_transactions,sales
+tracking_share_transactions,purchases
+tracking_share_transactions,transactions lots
+apartment_rentals,apartment buildings
+apartment_rentals,apartments
+apartment_rentals,apartment facilities
+apartment_rentals,guests
+apartment_rentals,apartment bookings
+apartment_rentals,view unit status
+student_transcripts_tracking,addresses
+student_transcripts_tracking,courses
+student_transcripts_tracking,departments
+student_transcripts_tracking,degree programs
+student_transcripts_tracking,sections
+student_transcripts_tracking,semesters
+student_transcripts_tracking,students
+student_transcripts_tracking,student enrolment
+student_transcripts_tracking,student enrolment courses
+student_transcripts_tracking,transcripts
+student_transcripts_tracking,transcript contents
+cre_Docs_and_Epenses,reference document types
+cre_Docs_and_Epenses,reference budget codes
+cre_Docs_and_Epenses,projects
+cre_Docs_and_Epenses,documents
+cre_Docs_and_Epenses,statements
+cre_Docs_and_Epenses,documents with expenses
+cre_Docs_and_Epenses,accounts
+ship_mission,mission
+ship_mission,ship
+company_office,buildings
+company_office,companies
+company_office,office locations
+tracking_software_problems,problem category codes
+tracking_software_problems,problem log
+tracking_software_problems,problem status codes
+tracking_software_problems,product
+tracking_software_problems,staff
+tracking_software_problems,problems
+products_gen_characteristics,reference characteristic types
+products_gen_characteristics,reference colors
+products_gen_characteristics,reference product categories
+products_gen_characteristics,characteristics
+products_gen_characteristics,products
+products_gen_characteristics,product characteristics
+coffee_shop,shop
+coffee_shop,member
+coffee_shop,happy hour
+coffee_shop,happy hour member
+riding_club,player
+riding_club,club
+riding_club,coach
+riding_club,player coach
+riding_club,match result
+customers_card_transactions,accounts
+customers_card_transactions,customers
+customers_card_transactions,customers cards
+customers_card_transactions,financial transactions
+county_public_safety,county public safety
+county_public_safety,city
+performance_attendance,member
+performance_attendance,performance
+performance_attendance,member attendance
+club_1,student
+club_1,club
+club_1,member of club
+singer,singer
+singer,song
+culture_company,book club
+culture_company,movie
+culture_company,culture company
+cre_Doc_Template_Mgt,reference template types
+cre_Doc_Template_Mgt,templates
+cre_Doc_Template_Mgt,documents
+cre_Doc_Template_Mgt,paragraphs
+musical,musical
+musical,actor
+world_1,city
+world_1,sqlite sequence
+world_1,country
+world_1,countrylanguage
+device,device
+device,shop
+device,stock
+tracking_grants_for_research,document types
+tracking_grants_for_research,documents
+tracking_grants_for_research,grants
+tracking_grants_for_research,organisation types
+tracking_grants_for_research,organisations
+tracking_grants_for_research,project outcomes
+tracking_grants_for_research,project staff
+tracking_grants_for_research,projects
+tracking_grants_for_research,research outcomes
+tracking_grants_for_research,research staff
+tracking_grants_for_research,staff roles
+tracking_grants_for_research,tasks
+employee_hire_evaluation,employee
+employee_hire_evaluation,shop
+employee_hire_evaluation,hiring
+employee_hire_evaluation,evaluation
+movie_1,movie
+movie_1,reviewer
+movie_1,rating
+network_1,high schooler
+network_1,friend
+network_1,likes
+poker_player,poker player
+poker_player,people
+program_share,program
+program_share,channel
+program_share,broadcast
+program_share,broadcast share
+aircraft,pilot
+aircraft,aircraft
+aircraft,match
+aircraft,airport
+aircraft,airport aircraft
+restaurant_1,student
+restaurant_1,restaurant
+restaurant_1,type of restaurant
+restaurant_1,restaurant type
+restaurant_1,visits restaurant
+customers_and_invoices,customers
+customers_and_invoices,orders
+customers_and_invoices,invoices
+customers_and_invoices,accounts
+customers_and_invoices,product categories
+customers_and_invoices,products
+customers_and_invoices,financial transactions
+customers_and_invoices,order items
+customers_and_invoices,invoice line items
+insurance_and_eClaims,customers
+insurance_and_eClaims,staff
+insurance_and_eClaims,policies
+insurance_and_eClaims,claim headers
+insurance_and_eClaims,claims documents
+insurance_and_eClaims,claims processing stages
+insurance_and_eClaims,claims processing
+college_1,class
+college_1,course
+college_1,department
+college_1,employee
+college_1,enroll
+college_1,professor
+college_1,student
+local_govt_mdm,customer master index
+local_govt_mdm,cmi cross references
+local_govt_mdm,council tax
+local_govt_mdm,business rates
+local_govt_mdm,benefits overpayments
+local_govt_mdm,parking fines
+local_govt_mdm,rent arrears
+local_govt_mdm,electoral register
+book_2,publication
+book_2,book
+hr_1,regions
+hr_1,countries
+hr_1,departments
+hr_1,jobs
+hr_1,employees
+hr_1,job history
+hr_1,locations
+soccer_1,player attributes
+soccer_1,sqlite sequence
+soccer_1,player
+soccer_1,league
+soccer_1,country
+soccer_1,team
+soccer_1,team attributes
+sakila_1,actor
+sakila_1,address
+sakila_1,category
+sakila_1,city
+sakila_1,country
+sakila_1,customer
+sakila_1,film
+sakila_1,film actor
+sakila_1,film category
+sakila_1,film text
+sakila_1,inventory
+sakila_1,language
+sakila_1,payment
+sakila_1,rental
+sakila_1,staff
+sakila_1,store
+real_estate_properties,reference feature types
+real_estate_properties,reference property types
+real_estate_properties,other available features
+real_estate_properties,properties
+real_estate_properties,other property features
+college_3,student
+college_3,faculty
+college_3,department
+college_3,member of
+college_3,course
+college_3,minor in
+college_3,enrolled in
+college_3,grade conversion
+course_teach,course
+course_teach,teacher
+course_teach,course arrange
+roller_coaster,roller coaster
+roller_coaster,country
+customer_deliveries,products
+customer_deliveries,addresses
+customer_deliveries,customers
+customer_deliveries,regular orders
+customer_deliveries,regular order products
+customer_deliveries,actual orders
+customer_deliveries,actual order products
+customer_deliveries,customer addresses
+customer_deliveries,delivery routes
+customer_deliveries,delivery route locations
+customer_deliveries,trucks
+customer_deliveries,employees
+customer_deliveries,order deliveries
+game_injury,stadium
+game_injury,game
+game_injury,injury accident
+school_finance,school
+school_finance,budget
+school_finance,endowment
+scholar,venue
+scholar,author
+scholar,dataset
+scholar,journal
+scholar,key phrase
+scholar,paper
+scholar,cite
+scholar,paper dataset
+scholar,paper key phrase
+scholar,writes
+voter_1,area code state
+voter_1,contestants
+voter_1,votes
+match_season,country
+match_season,team
+match_season,match season
+match_season,player
+small_bank_1,accounts
+small_bank_1,savings
+small_bank_1,checking
+wta_1,players
+wta_1,matches
+wta_1,rankings
+yelp,business
+yelp,category
+yelp,user
+yelp,checkin
+yelp,neighbourhood
+yelp,review
+yelp,tip
+student_1,list
+student_1,teachers
+manufacturer,manufacturer
+manufacturer,furniture
+manufacturer,furniture manufacte
+store_1,sqlite sequence
+store_1,artists
+store_1,albums
+store_1,employees
+store_1,customers
+store_1,genres
+store_1,invoices
+store_1,media types
+store_1,tracks
+store_1,invoice lines
+store_1,playlists
+store_1,playlist tracks
+train_station,station
+train_station,train
+train_station,train station
+document_management,roles
+document_management,users
+document_management,document structures
+document_management,functional areas
+document_management,images
+document_management,documents
+document_management,document functional areas
+document_management,document sections
+document_management,document sections images
+formula_1,circuits
+formula_1,races
+formula_1,drivers
+formula_1,status
+formula_1,seasons
+formula_1,constructors
+formula_1,constructor standings
+formula_1,results
+formula_1,driver standings
+formula_1,constructor results
+formula_1,qualifying
+formula_1,pit stops
+formula_1,lap times
+game_1,student
+game_1,video games
+game_1,plays games
+game_1,sports info
+loan_1,bank
+loan_1,customer
+loan_1,loan
+bike_1,station
+bike_1,status
+bike_1,trip
+bike_1,weather
+entrepreneur,entrepreneur
+entrepreneur,people
+orchestra,conductor
+orchestra,orchestra
+orchestra,performance
+orchestra,show
+cre_Drama_Workshop_Groups,reference payment methods
+cre_Drama_Workshop_Groups,reference service types
+cre_Drama_Workshop_Groups,addresses
+cre_Drama_Workshop_Groups,products
+cre_Drama_Workshop_Groups,marketing regions
+cre_Drama_Workshop_Groups,clients
+cre_Drama_Workshop_Groups,drama workshop groups
+cre_Drama_Workshop_Groups,performers
+cre_Drama_Workshop_Groups,customers
+cre_Drama_Workshop_Groups,stores
+cre_Drama_Workshop_Groups,bookings
+cre_Drama_Workshop_Groups,performers in bookings
+cre_Drama_Workshop_Groups,customer orders
+cre_Drama_Workshop_Groups,order items
+cre_Drama_Workshop_Groups,invoices
+cre_Drama_Workshop_Groups,services
+cre_Drama_Workshop_Groups,bookings services
+cre_Drama_Workshop_Groups,invoice items
+car_1,continents
+car_1,countries
+car_1,car makers
+car_1,model list
+car_1,car names
+car_1,cars data
+geo,state
+geo,city
+geo,border info
+geo,highlow
+geo,lake
+geo,mountain
+geo,river
+behavior_monitoring,reference address types
+behavior_monitoring,reference detention type
+behavior_monitoring,reference incident type
+behavior_monitoring,addresses
+behavior_monitoring,students
+behavior_monitoring,teachers
+behavior_monitoring,assessment notes
+behavior_monitoring,behavior incident
+behavior_monitoring,detention
+behavior_monitoring,student addresses
+behavior_monitoring,students in detention
+cre_Doc_Tracking_DB,reference document types
+cre_Doc_Tracking_DB,reference calendar
+cre_Doc_Tracking_DB,reference locations
+cre_Doc_Tracking_DB,roles
+cre_Doc_Tracking_DB,all documents
+cre_Doc_Tracking_DB,employees
+cre_Doc_Tracking_DB,document locations
+cre_Doc_Tracking_DB,documents to be destroyed
+university_basketball,basketball match
+university_basketball,university
+soccer_2,college
+soccer_2,player
+soccer_2,tryout
+activity_1,activity
+activity_1,participates in
+activity_1,faculty participates in
+activity_1,student
+activity_1,faculty
+cre_Theme_park,ref hotel star ratings
+cre_Theme_park,locations
+cre_Theme_park,ref attraction types
+cre_Theme_park,visitors
+cre_Theme_park,features
+cre_Theme_park,hotels
+cre_Theme_park,tourist attractions
+cre_Theme_park,street markets
+cre_Theme_park,shops
+cre_Theme_park,museums
+cre_Theme_park,royal family
+cre_Theme_park,theme parks
+cre_Theme_park,visits
+cre_Theme_park,photos
+cre_Theme_park,staff
+cre_Theme_park,tourist attraction features
+twitter_1,follows
+twitter_1,tweets
+twitter_1,user profiles
+election_representative,election
+election_representative,representative
+voter_2,student
+voter_2,voting record
+wedding,people
+wedding,church
+wedding,wedding
+news_report,event
+news_report,journalist
+news_report,news report
+wine_1,grapes
+wine_1,appellations
+wine_1,wine
+customers_and_addresses,addresses
+customers_and_addresses,products
+customers_and_addresses,customers
+customers_and_addresses,customer addresses
+customers_and_addresses,customer contact channels
+customers_and_addresses,customer orders
+customers_and_addresses,order items
+protein_institute,building
+protein_institute,institution
+protein_institute,protein
+school_player,school
+school_player,school details
+school_player,school performance
+school_player,player
+phone_1,chip model
+phone_1,screen mode
+phone_1,phone
+tvshow,tv channel
+tvshow,tv series
+tvshow,cartoon
+wrestler,wrestler
+wrestler,elimination
+customer_complaints,staff
+customer_complaints,customers
+customer_complaints,products
+customer_complaints,complaints
+department_management,department
+department_management,head
+department_management,management
+customers_and_products_contacts,addresses
+customers_and_products_contacts,products
+customers_and_products_contacts,customers
+customers_and_products_contacts,contacts
+customers_and_products_contacts,customer address history
+customers_and_products_contacts,customer orders
+customers_and_products_contacts,order items
+company_1,works on
+company_1,employee
+company_1,department
+company_1,project
+company_1,dependent
+company_1,department locations
+workshop_paper,workshop
+workshop_paper,submission
+workshop_paper,acceptance
+epinions_1,item
+epinions_1,review
+epinions_1,useracct
+epinions_1,trust
+party_host,party
+party_host,host
+party_host,party host
+product_catalog,attribute definitions
+product_catalog,catalogs
+product_catalog,catalog structure
+product_catalog,catalog contents
+product_catalog,catalog contents additional attributes
