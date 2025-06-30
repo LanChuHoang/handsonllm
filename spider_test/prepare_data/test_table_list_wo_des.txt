@@ -1,0 +1,1465 @@
+Database 'aan_1':
+- Affiliation
+- Author
+- Author_list
+- Citation
+- Paper
+
+Database 'academic':
+- author
+- conference
+- domain
+- domain_author
+- domain_conference
+- journal
+- domain_journal
+- keyword
+- domain_keyword
+- publication
+- domain_publication
+- organization
+- publication_keyword
+- writes
+- cite
+
+Database 'activity_1':
+- Activity
+- Participates_in
+- Faculty_Participates_in
+- Student
+- Faculty
+
+Database 'address_1':
+- Student
+- Direct_distance
+- City
+
+Database 'advertising_agencies':
+- Agencies
+- Staff
+- Clients
+- Invoices
+- Meetings
+- Payments
+- Staff_in_Meetings
+
+Database 'aircraft':
+- pilot
+- aircraft
+- match
+- airport
+- airport_aircraft
+
+Database 'allergy_1':
+- Allergy_Type
+- Has_Allergy
+- Student
+
+Database 'apartment_rentals':
+- Apartment_Buildings
+- Apartments
+- Apartment_Facilities
+- Guests
+- Apartment_Bookings
+- View_Unit_Status
+
+Database 'architecture':
+- architect
+- bridge
+- mill
+
+Database 'art_1':
+- Artists
+- Paintings
+- Sculptures
+
+Database 'assets_maintenance':
+- Third_Party_Companies
+- Maintenance_Contracts
+- Parts
+- Skills
+- Staff
+- Assets
+- Asset_Parts
+- Maintenance_Engineers
+- Engineer_Skills
+- Fault_Log
+- Engineer_Visits
+- Part_Faults
+- Fault_Log_Parts
+- Skills_Required_To_Fix
+
+Database 'bakery_1':
+- customers
+- goods
+- items
+- receipts
+
+Database 'baseball_1':
+- all_star
+- appearances
+- manager_award
+- player_award
+- manager_award_vote
+- player_award_vote
+- batting
+- batting_postseason
+- player_college
+- fielding
+- fielding_outfield
+- fielding_postseason
+- hall_of_fame
+- home_game
+- manager
+- manager_half
+- player
+- park
+- pitching
+- pitching_postseason
+- salary
+- college
+- postseason
+- team
+- team_franchise
+- team_half
+
+Database 'battle_death':
+- battle
+- ship
+- death
+
+Database 'bbc_channels':
+- channel
+- director
+- program
+- director_admin
+
+Database 'behavior_monitoring':
+- Ref_Address_Types
+- Ref_Detention_Type
+- Ref_Incident_Type
+- Addresses
+- Students
+- Teachers
+- Assessment_Notes
+- Behavior_Incident
+- Detention
+- Student_Addresses
+- Students_in_Detention
+
+Database 'bike_1':
+- station
+- status
+- trip
+- weather
+
+Database 'bike_racing':
+- bike
+- cyclist
+- cyclists_own_bikes
+
+Database 'boat_1':
+- Sailors
+- Boats
+- Reserves
+
+Database 'body_builder':
+- body_builder
+- people
+
+Database 'book_1':
+- Client
+- Orders
+- Author
+- Book
+- Author_Book
+- Books_Order
+
+Database 'book_2':
+- publication
+- book
+
+Database 'book_press':
+- author
+- press
+- book
+
+Database 'book_review':
+- book
+- review
+
+Database 'browser_web':
+- Web_client_accelerator
+- browser
+- accelerator_compatible_browser
+
+Database 'candidate_poll':
+- candidate
+- people
+
+Database 'car_1':
+- continents
+- countries
+- car_makers
+- model_list
+- car_names
+- cars_data
+
+Database 'car_racing':
+- country
+- team
+- driver
+- team_driver
+
+Database 'car_road_race':
+- driver
+- race
+
+Database 'chinook_1':
+- Album
+- Artist
+- Customer
+- Employee
+- Genre
+- Invoice
+- InvoiceLine
+- MediaType
+- Playlist
+- PlaylistTrack
+- Track
+
+Database 'cinema':
+- film
+- cinema
+- schedule
+
+Database 'city_record':
+- city
+- match
+- temperature
+- hosting_city
+
+Database 'climbing':
+- mountain
+- climber
+
+Database 'club_1':
+- Student
+- Club
+- Member_of_club
+
+Database 'club_leader':
+- member
+- club
+- club_leader
+
+Database 'coffee_shop':
+- shop
+- member
+- happy_hour
+- happy_hour_member
+
+Database 'college_1':
+- CLASS
+- COURSE
+- DEPARTMENT
+- EMPLOYEE
+- ENROLL
+- PROFESSOR
+- STUDENT
+
+Database 'college_2':
+- classroom
+- department
+- course
+- instructor
+- section
+- teaches
+- student
+- takes
+- advisor
+- time_slot
+- prereq
+
+Database 'college_3':
+- Student
+- Faculty
+- Department
+- Member_of
+- Course
+- Minor_in
+- Enrolled_in
+- Gradeconversion
+
+Database 'company_1':
+- works_on
+- employee
+- department
+- project
+- dependent
+- dept_locations
+
+Database 'company_employee':
+- people
+- company
+- employment
+
+Database 'company_office':
+- buildings
+- Companies
+- Office_locations
+
+Database 'concert_singer':
+- stadium
+- singer
+- concert
+- singer_in_concert
+
+Database 'conference':
+- conference
+- institution
+- staff
+- conference_participation
+
+Database 'country_language':
+- languages
+- countries
+- official_languages
+
+Database 'county_public_safety':
+- county_public_safety
+- city
+
+Database 'course_teach':
+- course
+- teacher
+- course_arrange
+
+Database 'cre_Doc_Control_Systems':
+- Ref_Document_Types
+- Roles
+- Addresses
+- Ref_Document_Status
+- Ref_Shipping_Agents
+- Documents
+- Employees
+- Document_Drafts
+- Draft_Copies
+- Circulation_History
+- Documents_Mailed
+
+Database 'cre_Doc_Template_Mgt':
+- Ref_Template_Types
+- Templates
+- Documents
+- Paragraphs
+
+Database 'cre_Doc_Tracking_DB':
+- Ref_Document_Types
+- Ref_Calendar
+- Ref_Locations
+- Roles
+- All_Documents
+- Employees
+- Document_Locations
+- Documents_to_be_Destroyed
+
+Database 'cre_Doc_Workflow':
+- Staff
+- Ref_Staff_Roles
+- Process_Outcomes
+- Process_Status
+- Authors
+- Documents
+- Business_Processes
+- Documents_Processes
+- Staff_in_Processes
+
+Database 'cre_Doc_and_collections':
+- Document_Subsets
+- Collection_Subsets
+- Document_Objects
+- Collections
+- Documents_in_Collections
+- Document_Subset_Members
+- Collection_Subset_Members
+
+Database 'cre_Docs_and_Epenses':
+- Ref_Document_Types
+- Ref_Budget_Codes
+- Projects
+- Documents
+- Statements
+- Documents_with_Expenses
+- Accounts
+
+Database 'cre_Drama_Workshop_Groups':
+- Ref_Payment_Methods
+- Ref_Service_Types
+- Addresses
+- Products
+- Marketing_Regions
+- Clients
+- Drama_Workshop_Groups
+- Performers
+- Customers
+- Stores
+- Bookings
+- Performers_in_Bookings
+- Customer_Orders
+- Order_Items
+- Invoices
+- Services
+- Bookings_Services
+- Invoice_Items
+
+Database 'cre_Students_Information_Systems':
+- Students
+- Transcripts
+- Behaviour_Monitoring
+- Addresses
+- Ref_Event_Types
+- Ref_Achievement_Type
+- Ref_Address_Types
+- Ref_Detention_Type
+- Student_Events
+- Teachers
+- Student_Loans
+- Classes
+- Students_Addresses
+- Detention
+- Achievements
+
+Database 'cre_Theme_park':
+- Ref_Hotel_Star_Ratings
+- Locations
+- Ref_Attraction_Types
+- Visitors
+- Features
+- Hotels
+- Tourist_Attractions
+- Street_Markets
+- Shops
+- Museums
+- Royal_Family
+- Theme_Parks
+- Visits
+- Photos
+- Staff
+- Tourist_Attraction_Features
+
+Database 'csu_1':
+- Campuses
+- csu_fees
+- degrees
+- discipline_enrollments
+- enrollments
+- faculty
+
+Database 'culture_company':
+- book_club
+- movie
+- culture_company
+
+Database 'customer_complaints':
+- Staff
+- Customers
+- Products
+- Complaints
+
+Database 'customer_deliveries':
+- Products
+- Addresses
+- Customers
+- Regular_Orders
+- Regular_Order_Products
+- Actual_Orders
+- Actual_Order_Products
+- Customer_Addresses
+- Delivery_Routes
+- Delivery_Route_Locations
+- Trucks
+- Employees
+- Order_Deliveries
+
+Database 'customers_and_addresses':
+- Addresses
+- Products
+- Customers
+- Customer_Addresses
+- Customer_Contact_Channels
+- Customer_Orders
+- Order_Items
+
+Database 'customers_and_invoices':
+- Customers
+- Orders
+- Invoices
+- Accounts
+- Product_Categories
+- Products
+- Financial_Transactions
+- Order_Items
+- Invoice_Line_Items
+
+Database 'customers_and_orders':
+- Products
+- Addresses
+- Customers
+- Customer_Orders
+- Order_Items
+
+Database 'customers_and_products_contacts':
+- Addresses
+- Products
+- Customers
+- Contacts
+- Customer_Address_History
+- Customer_Orders
+- Order_Items
+
+Database 'customers_campaigns_ecommerce':
+- Premises
+- Products
+- Customers
+- Mailshot_Campaigns
+- Customer_Addresses
+- Customer_Orders
+- Mailshot_Customers
+- Order_Items
+
+Database 'customers_card_transactions':
+- Accounts
+- Customers
+- Customers_Cards
+- Financial_Transactions
+
+Database 'debate':
+- people
+- debate
+- debate_people
+
+Database 'decoration_competition':
+- college
+- member
+- round
+
+Database 'department_management':
+- department
+- head
+- management
+
+Database 'department_store':
+- Addresses
+- Staff
+- Suppliers
+- Department_Store_Chain
+- Customers
+- Products
+- Supplier_Addresses
+- Customer_Addresses
+- Customer_Orders
+- Department_Stores
+- Departments
+- Order_Items
+- Product_Suppliers
+- Staff_Department_Assignments
+
+Database 'device':
+- device
+- shop
+- stock
+
+Database 'district_spokesman':
+- district
+- spokesman
+- spokesman_district
+
+Database 'document_management':
+- Roles
+- Users
+- Document_Structures
+- Functional_Areas
+- Images
+- Documents
+- Document_Functional_Areas
+- Document_Sections
+- Document_Sections_Images
+
+Database 'dog_kennels':
+- Breeds
+- Charges
+- Sizes
+- Treatment_Types
+- Owners
+- Dogs
+- Professionals
+- Treatments
+
+Database 'dorm_1':
+- Student
+- Dorm
+- Dorm_amenity
+- Has_amenity
+- Lives_in
+
+Database 'driving_school':
+- Addresses
+- Staff
+- Vehicles
+- Customers
+- Customer_Payments
+- Lessons
+
+Database 'e_commerce':
+- Products
+- Customers
+- Customer_Payment_Methods
+- Invoices
+- Orders
+- Order_Items
+- Shipments
+- Shipment_Items
+
+Database 'e_government':
+- Addresses
+- Services
+- Forms
+- Individuals
+- Organizations
+- Parties
+- Organization_Contact_Individuals
+- Party_Addresses
+- Party_Forms
+- Party_Services
+
+Database 'e_learning':
+- Course_Authors_and_Tutors
+- Students
+- Subjects
+- Courses
+- Student_Course_Enrolment
+- Student_Tests_Taken
+
+Database 'election':
+- county
+- party
+- election
+
+Database 'election_representative':
+- election
+- representative
+
+Database 'employee_hire_evaluation':
+- employee
+- shop
+- hiring
+- evaluation
+
+Database 'entertainment_awards':
+- festival_detail
+- artwork
+- nomination
+
+Database 'entrepreneur':
+- entrepreneur
+- people
+
+Database 'epinions_1':
+- item
+- review
+- useracct
+- trust
+
+Database 'farm':
+- city
+- farm
+- farm_competition
+- competition_record
+
+Database 'film_rank':
+- film
+- market
+- film_market_estimation
+
+Database 'flight_1':
+- flight
+- aircraft
+- employee
+- certificate
+
+Database 'flight_2':
+- airlines
+- airports
+- flights
+
+Database 'flight_4':
+- routes
+- airports
+- airlines
+
+Database 'flight_company':
+- airport
+- operate_company
+- flight
+
+Database 'formula_1':
+- circuits
+- races
+- drivers
+- status
+- seasons
+- constructors
+- constructorStandings
+- results
+- driverStandings
+- constructorResults
+- qualifying
+- pitStops
+- lapTimes
+
+Database 'game_1':
+- Student
+- Video_Games
+- Plays_Games
+- SportsInfo
+
+Database 'game_injury':
+- stadium
+- game
+- injury_accident
+
+Database 'gas_company':
+- company
+- gas_station
+- station_company
+
+Database 'geo':
+- state
+- city
+- border_info
+- highlow
+- lake
+- mountain
+- river
+
+Database 'government_shift':
+- Services
+- Customers
+- Channels
+- Customers_and_Services
+- Customer_Interactions
+- Integration_Platform
+- Analytical_Layer
+
+Database 'gymnast':
+- gymnast
+- people
+
+Database 'headphone_store':
+- headphone
+- store
+- stock
+
+Database 'hospital_1':
+- Physician
+- Department
+- Affiliated_With
+- Procedures
+- Trained_In
+- Patient
+- Nurse
+- Appointment
+- Medication
+- Prescribes
+- Block
+- Room
+- On_Call
+- Stay
+- Undergoes
+
+Database 'hr_1':
+- regions
+- countries
+- departments
+- jobs
+- employees
+- job_history
+- locations
+
+Database 'icfp_1':
+- Inst
+- Authors
+- Papers
+- Authorship
+
+Database 'imdb':
+- actor
+- copyright
+- cast
+- genre
+- classification
+- company
+- director
+- producer
+- directed_by
+- keyword
+- made_by
+- movie
+- tags
+- tv_series
+- writer
+- written_by
+
+Database 'inn_1':
+- Rooms
+- Reservations
+
+Database 'institution_sports':
+- institution
+- Championship
+
+Database 'insurance_and_eClaims':
+- Customers
+- Staff
+- Policies
+- Claim_Headers
+- Claims_Documents
+- Claims_Processing_Stages
+- Claims_Processing
+
+Database 'insurance_fnol':
+- Customers
+- Services
+- Available_Policies
+- Customers_Policies
+- First_Notification_of_Loss
+- Claims
+- Settlements
+
+Database 'insurance_policies':
+- Customers
+- Customer_Policies
+- Claims
+- Settlements
+- Payments
+
+Database 'journal_committee':
+- journal
+- editor
+- journal_committee
+
+Database 'loan_1':
+- bank
+- customer
+- loan
+
+Database 'local_govt_and_lot':
+- Customers
+- Properties
+- Residents
+- Organizations
+- Services
+- Residents_Services
+- Things
+- Customer_Events
+- Customer_Event_Notes
+- Timed_Status_of_Things
+- Timed_Locations_of_Things
+
+Database 'local_govt_in_alabama':
+- Services
+- Participants
+- Events
+- Participants_in_Events
+
+Database 'local_govt_mdm':
+- Customer_Master_Index
+- CMI_Cross_References
+- Council_Tax
+- Business_Rates
+- Benefits_Overpayments
+- Parking_Fines
+- Rent_Arrears
+- Electoral_Register
+
+Database 'machine_repair':
+- repair
+- machine
+- technician
+- repair_assignment
+
+Database 'manufactory_1':
+- Manufacturers
+- Products
+
+Database 'manufacturer':
+- manufacturer
+- furniture
+- furniture_manufacte
+
+Database 'match_season':
+- country
+- team
+- match_season
+- player
+
+Database 'medicine_enzyme_interaction':
+- medicine
+- enzyme
+- medicine_enzyme_interaction
+
+Database 'mountain_photos':
+- mountain
+- camera_lens
+- photos
+
+Database 'movie_1':
+- Movie
+- Reviewer
+- Rating
+
+Database 'movie_2':
+- Movies
+- MovieTheaters
+
+Database 'museum_visit':
+- museum
+- visitor
+- visit
+
+Database 'music_1':
+- genre
+- artist
+- files
+- song
+
+Database 'music_2':
+- Songs
+- Albums
+- Band
+- Instruments
+- Performance
+- Tracklists
+- Vocals
+
+Database 'music_4':
+- artist
+- volume
+- music_festival
+
+Database 'musical':
+- musical
+- actor
+
+Database 'network_1':
+- Highschooler
+- Friend
+- Likes
+
+Database 'network_2':
+- Person
+- PersonFriend
+
+Database 'news_report':
+- event
+- journalist
+- news_report
+
+Database 'online_exams':
+- Students
+- Questions
+- Exams
+- Questions_in_Exams
+- Valid_Answers
+- Student_Answers
+- Student_Assessments
+
+Database 'orchestra':
+- conductor
+- orchestra
+- performance
+- show
+
+Database 'party_host':
+- party
+- host
+- party_host
+
+Database 'party_people':
+- region
+- party
+- member
+- party_events
+
+Database 'performance_attendance':
+- member
+- performance
+- member_attendance
+
+Database 'perpetrator':
+- perpetrator
+- people
+
+Database 'pets_1':
+- Student
+- Has_Pet
+- Pets
+
+Database 'phone_1':
+- chip_model
+- screen_mode
+- phone
+
+Database 'phone_market':
+- phone
+- market
+- phone_market
+
+Database 'pilot_1':
+- PilotSkills
+- Hangar
+
+Database 'pilot_record':
+- aircraft
+- pilot
+- pilot_record
+
+Database 'planet_1':
+- Employee
+- Planet
+- Shipment
+- Has_Clearance
+- Client
+- Package
+
+Database 'poker_player':
+- poker_player
+- people
+
+Database 'product_catalog':
+- Attribute_Definitions
+- Catalogs
+- Catalog_Structure
+- Catalog_Contents
+- Catalog_Contents_Additional_Attributes
+
+Database 'products_for_hire':
+- Discount_Coupons
+- Customers
+- Bookings
+- Products_for_Hire
+- Payments
+- Products_Booked
+- View_Product_Availability
+
+Database 'products_gen_characteristics':
+- Ref_Characteristic_Types
+- Ref_Colors
+- Ref_Product_Categories
+- Characteristics
+- Products
+- Product_Characteristics
+
+Database 'program_share':
+- program
+- channel
+- broadcast
+- broadcast_share
+
+Database 'protein_institute':
+- building
+- Institution
+- protein
+
+Database 'race_track':
+- race
+- track
+
+Database 'railway':
+- railway
+- train
+- manager
+- railway_manage
+
+Database 'real_estate_properties':
+- Ref_Feature_Types
+- Ref_Property_Types
+- Other_Available_Features
+- Properties
+- Other_Property_Features
+
+Database 'real_estate_rentals':
+- Ref_Age_Categories
+- Ref_Property_Types
+- Ref_Room_Types
+- Ref_User_Categories
+- Addresses
+- Features
+- Users
+- Properties
+- Property_Features
+- Property_Photos
+- Rooms
+- User_Property_History
+- User_Searches
+
+Database 'region_building':
+- building
+- region
+
+Database 'restaurant_1':
+- Student
+- Restaurant
+- Type_Of_Restaurant
+- Restaurant_Type
+- Visits_Restaurant
+
+Database 'restaurant_bills':
+- customer
+- branch
+- customer_order
+
+Database 'restaurants':
+- GEOGRAPHIC
+- RESTAURANT
+- LOCATION
+
+Database 'riding_club':
+- player
+- club
+- coach
+- player_coach
+- match_result
+
+Database 'roller_coaster':
+- roller_coaster
+- country
+
+Database 'sakila_1':
+- actor
+- address
+- category
+- city
+- country
+- customer
+- film
+- film_actor
+- film_category
+- film_text
+- inventory
+- language
+- payment
+- rental
+- staff
+- store
+
+Database 'scholar':
+- venue
+- author
+- dataset
+- journal
+- keyphrase
+- paper
+- cite
+- paperDataset
+- paperKeyphrase
+- writes
+
+Database 'school_bus':
+- driver
+- school
+- school_bus
+
+Database 'school_finance':
+- School
+- budget
+- endowment
+
+Database 'school_player':
+- school
+- school_details
+- school_performance
+- player
+
+Database 'scientist_1':
+- Scientists
+- Projects
+- AssignedTo
+
+Database 'ship_1':
+- captain
+- Ship
+
+Database 'ship_mission':
+- mission
+- ship
+
+Database 'shop_membership':
+- member
+- branch
+- membership_register_branch
+- purchase
+
+Database 'sing_contest':
+- participants
+- songs
+- performance_score
+
+Database 'singer':
+- singer
+- song
+
+Database 'small_bank_1':
+- ACCOUNTS
+- SAVINGS
+- CHECKING
+
+Database 'soccer_1':
+- Player_Attributes
+- Player
+- League
+- Country
+- Team
+- Team_Attributes
+
+Database 'soccer_2':
+- College
+- Player
+- Tryout
+
+Database 'soccer_3':
+- club
+- player
+
+Database 'solvency_ii':
+- Addresses
+- Locations
+- Products
+- Parties
+- Assets
+- Channels
+- Finances
+- Events
+- Products_in_Events
+- Parties_in_Events
+- Agreements
+- Assets_in_Events
+
+Database 'sports_competition':
+- club
+- club_rank
+- player
+- competition
+- competition_result
+
+Database 'station_weather':
+- train
+- station
+- route
+- weekly_weather
+
+Database 'store_1':
+- artists
+- albums
+- employees
+- customers
+- genres
+- invoices
+- media_types
+- tracks
+- invoice_lines
+- playlists
+- playlist_tracks
+
+Database 'store_product':
+- product
+- store
+- district
+- store_product
+- store_district
+
+Database 'storm_record':
+- storm
+- region
+- affected_region
+
+Database 'student_1':
+- list
+- teachers
+
+Database 'student_assessment':
+- Addresses
+- People
+- Students
+- Courses
+- People_Addresses
+- Student_Course_Registrations
+- Student_Course_Attendance
+- Candidates
+- Candidate_Assessments
+
+Database 'student_transcripts_tracking':
+- Addresses
+- Courses
+- Departments
+- Degree_Programs
+- Sections
+- Semesters
+- Students
+- Student_Enrolment
+- Student_Enrolment_Courses
+- Transcripts
+- Transcript_Contents
+
+Database 'swimming':
+- swimmer
+- stadium
+- event
+- record
+
+Database 'theme_gallery':
+- artist
+- exhibition
+- exhibition_record
+
+Database 'tracking_grants_for_research':
+- Document_Types
+- Documents
+- Grants
+- Organisation_Types
+- Organisations
+- Project_Outcomes
+- Project_Staff
+- Projects
+- Research_Outcomes
+- Research_Staff
+- Staff_Roles
+- Tasks
+
+Database 'tracking_orders':
+- Customers
+- Invoices
+- Orders
+- Products
+- Order_Items
+- Shipments
+- Shipment_Items
+
+Database 'tracking_share_transactions':
+- Investors
+- Lots
+- Ref_Transaction_Types
+- Transactions
+- Sales
+- Purchases
+- Transactions_Lots
+
+Database 'tracking_software_problems':
+- Problem_Category_Codes
+- Problem_Log
+- Problem_Status_Codes
+- Product
+- Staff
+- Problems
+
+Database 'train_station':
+- station
+- train
+- train_station
+
+Database 'tv_shows':
+- city_channel
+- radio
+- tv_show
+- city_channel_radio
+- city_channel_tv_show
+
+Database 'tvshow':
+- TV_Channel
+- TV_series
+- Cartoon
+
+Database 'twitter_1':
+- follows
+- tweets
+- user_profiles
+
+Database 'university_basketball':
+- basketball_match
+- university
+
+Database 'university_rank':
+- university
+- overall_ranking
+- major
+- major_ranking
+
+Database 'vehicle_driver':
+- vehicle
+- driver
+- vehicle_driver
+
+Database 'vehicle_rent':
+- Customers
+- Discount
+- Vehicles
+- Renting_history
+
+Database 'video_game':
+- platform
+- game
+- player
+- game_player
+
+Database 'voter_1':
+- AREA_CODE_STATE
+- CONTESTANTS
+- VOTES
+
+Database 'voter_2':
+- Student
+- Voting_record
+
+Database 'warehouse_1':
+- Warehouses
+- Boxes
+
+Database 'wedding':
+- people
+- church
+- wedding
+
+Database 'wine_1':
+- grapes
+- appellations
+- wine
+
+Database 'workshop_paper':
+- workshop
+- submission
+- Acceptance
+
+Database 'world_1':
+- city
+- country
+- countrylanguage
+
+Database 'wrestler':
+- wrestler
+- Elimination
+
+Database 'wta_1':
+- players
+- matches
+- rankings
+
+Database 'yelp':
+- business
+- category
+- user
+- checkin
+- neighbourhood
+- review
+- tip
+
